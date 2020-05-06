@@ -6,4 +6,8 @@ class School
   
   ROSTER = {}
   
+  def add_student(name, grade)
+    ROSTER << name
+  end
+  
 end
