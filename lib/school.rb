@@ -1,3 +1,5 @@
 class School("Bayside High School")
-  def name()
+  
+  def initialize(name)
+    @name = name
 end
