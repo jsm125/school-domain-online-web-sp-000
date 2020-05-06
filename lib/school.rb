@@ -24,4 +24,7 @@ class School
     @roster[grade_year]
   end
   
+  def sort(grade_year)
+    @roster[grade_year].sort
+  end  
 end
